@@ -2,7 +2,7 @@
 
 
 $(document).ready(function () {
-    // Function to load content from a file via AJAX
+    // Function to load content from a file using AJAX
     function loadContent(file) {
         $.ajax({
             url: file,
